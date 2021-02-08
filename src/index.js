@@ -1,8 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom"
 
-let App = () =>
-  <p>hi</p>
+import App from './App'
 
 let root = document.getElementById("app")
 

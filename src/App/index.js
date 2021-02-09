@@ -2,7 +2,7 @@ import React from "react"
 
 let App = () => (
   <div>
-    <img src="" alt="some image" />
+    <img src="" />
     <p>hi</p>
   </div>
 )

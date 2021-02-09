@@ -1,9 +1,11 @@
-import React from 'react'
-import { render, fireEvent } from '@testing-library/react';
+import testAccessibility from '../../testAccessibility'
 
 import App from '../'
 
-test('mounts App', function() {
-  let { getByText } = render(<App />)
-  expect(getByText('hi')).toBeTruthy()
+describe('App', function() {
+
+  test('accessibility', async function() {
+     await testAccessibility(App)
+  })
+
 })

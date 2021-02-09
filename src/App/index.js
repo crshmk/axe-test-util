@@ -1,6 +1,10 @@
 import React from "react"
 
-let App = () =>
-  <p>hi</p>
+let App = () => (
+  <div>
+    <img src="" alt="some image" />
+    <p>hi</p>
+  </div>
+)
 
 export default App
